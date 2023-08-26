@@ -1,0 +1,1243 @@
+@font-face{
+    font-family: EssentialBlack;
+    src: url('Gilroy-ExtraBold.otf');
+  }
+   @font-face{
+    font-family: EssentialLight;
+    src: url('Gilroy-Light.otf');
+  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    line-height: 1.6;
+    background-color:0c0150;
+    }
+header{
+  z-index: 9;
+}
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+.container{
+  padding-top: 100px;
+}
+.container h1{
+    margin-bottom: 85px;
+    font-size:xx-large;
+    font-family: EssentialBlack;
+    color: white;
+    text-align: center;
+}
+.contcard{
+    padding: 0px 30px 0px 30px;
+    margin-left: 0px;
+    margin-bottom: 60px;
+   min-height: 100px;
+    width: 100%;
+    z-index: -1;
+}
+.crard{
+    padding: 20px 5px 5px 20px;
+    width: 100%;
+   height: 280;
+   z-index: -1;
+  text-decoration: none;
+  display: block;
+  background-color:#0c0128;
+  border: none;
+  border-radius: 20px;
+    display: inline-flex;
+}
+.explain{
+  margin-top: 35px;
+}
+.explain p{
+color: white;
+font-family:EssentialLight ;
+opacity: 0.5;
+font-size: medium;
+}
+.crard img{
+   top: 0px;
+   left: 30px;
+    width:45;
+    float: left;
+    margin-right: 10px;
+    margin-top: -10px;
+
+}
+.crard h2
+{
+    margin-left: 20px;
+    font-size: x-large;
+    font-family: EssentialBlack;
+    color: white;
+    text-decoration: none;
+}
+.crard:hover,.crard:focus{
+    text-decoration: none;
+}
+.crystal{
+    margin-bottom: 60px;
+    width: 65;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    -webkit-animation-name: iconpng; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: iconpng;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+.contain-img{
+    padding: 0px 60px 0px 60px;
+    margin-bottom: 60px;
+   height: 250px;
+    width: 100%;
+    position: relative;
+}
+.grid{
+    margin-left: 20%;
+    width:230;
+    z-index: -1;
+    height: auto;
+    overflow: auto;
+    position: absolute;
+}
+.statue{
+    margin-left: 25%;
+    width: 250;
+    z-index: 2;
+    position: absolute;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.ball{
+    margin-top: 10%;
+    margin-right: 10%;
+    width: 60;
+    z-index: 3;
+    float: right;
+    -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: examplebol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.box{
+    margin-top: 35%;
+    top:0;
+    right: 0;
+    width:95;
+    position: absolute;
+    -webkit-animation-name: box2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: box2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    z-index: 1;
+}
+.long-box{
+    margin-top: 10%;
+    margin-right: 20%;
+    width: 60;
+    z-index: 3;
+    float: right;
+    -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: examplebol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+footer{
+    margin-top: 100px;
+    padding-top: 60px;
+    padding-left: 85px;
+    width: 100%;
+  min-height: 350px;
+    background-color: #0c0128;
+  
+  }
+  #location{
+    padding: 0px 30px 0px 40px ;
+  
+  }
+  footer h1{
+    color: white;
+    font-family:EssentialBlack ;
+  }
+  footer p{
+    color: white;
+    opacity: 0.5;
+    font-family: EssentialLight;
+  }
+  #links{
+    padding: 0px 60px 0px 60px ;
+  }
+  #follow{
+    padding: 0px 30px 0px 30px ;
+  }
+  #links a{
+    color: white;
+    opacity: 0.5;
+    font-family: EssentialLight;
+    display: block;
+  }
+  footer a:hover{
+    color: white;
+   text-decoration: none;
+  }
+  footer img{
+    width: 35;
+    color: white;
+    font-family: EssentialLight;
+    display:inline-flex;
+  }
+  .face{
+    margin: 0px 10px 0px 10px;
+  }
+
+@-webkit-keyframes example {
+    0%   { left:0px; top:15px;
+      transform:rotatey(5deg);}
+    50%    { left:0px; top:0px;
+      transform:rotatey(0deg);}
+  100%   { left:0px; top:15px;
+    transform:rotatey(5deg);}
+  
+  }
+  @keyframes example {
+    0%   { left:0px; top:15px;
+      transform:rotatez(3deg);}
+    50%    { left:0px; top:0px;
+      transform:rotatez(0deg);}
+  100%   { left:0px; top:15px;
+    transform:rotatez(3deg);}
+  }
+  @-webkit-keyframes examplebol {
+    0%   { left:0px; top:0px;
+      transform: rotateZ(23deg);}
+    50%    { left:0px; top:20px;
+      transform: rotateZ(-23deg);}
+  100%   { left:0px; top:0px;
+    transform: rotateZ(23deg);}
+  }
+  
+  /* Standard syntax */
+  @keyframes examplebol {
+    0%   { left:0px; top:0px;
+    transform: rotateZ(23deg);}
+    50%    { left:0px; top:20px;
+      transform: rotateZ(-23deg);}
+  100%   { left:0px; top:0px;
+    transform: rotateZ(23deg);}
+  }
+  @-webkit-keyframes box2 {
+    0%   { right:0px; top:15px;}
+    50%    { right:0px; top:0px;}
+  100%   { right:0px; top:15px;}
+  }
+  
+  /* Standard syntax */
+  @keyframes box2 {
+    0%   {right:0px; top:15px;}
+    50%    { right:0px; top:0px;}
+  100%   { right:0px; top:15px;}
+  }
+  @-webkit-keyframes iconpng {
+    0%   {left:10px; bottom:15px;
+    transform: rotateZ(35);}
+    50%    { left:0px; bottom:-15px;
+      transform: rotateZ(-35);}
+  100%   { left:10px; bottom:15px;
+    transform: rotateZ(35);}
+  }
+  
+  /* Standard syntax */
+  @keyframes iconpng {
+    0%   {left:10px; bottom:15px;
+        transform: rotateZ(35);}
+        50%    { left:0px; bottom:-15px;
+          transform: rotateZ(-35);}
+      100%   { left:10px; bottom:15px;
+        transform: rotateZ(35);}
+  }
+  @media screen and (max-width: 991px){
+    .grid{
+      margin-left: 0px;
+      width:250;
+      z-index: -1;
+      height: auto;
+      overflow: auto;
+      position: absolute;
+  }
+  .statue{
+      margin-left: 10%;
+      width: 250;
+      z-index: 2;
+      position: absolute;
+      -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .ball{
+    margin-top: 39%;
+    margin-right: -72px;
+      width: 60;
+      z-index: 3;
+      float: right;
+      -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: examplebol;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .box{
+      margin-top: 35%;
+      top:0;
+      right: 0;
+      width:95;
+      position: absolute;
+      -webkit-animation-name: box2; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: box2;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      z-index: 1;
+  }
+  .long-box{
+      margin-top: 10%;
+      margin-right: 20%;
+      width: 65;
+      z-index: 3;
+      float: right;
+      -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: examplebol;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  } 
+    .crard{
+      padding: 20px 20px 5px 20px;
+     width: 100%;
+     height: 380px;
+     z-index: -1;
+    text-decoration: none;
+    display: block;
+    background-color:#0c0128;
+    border: none;
+    border-radius: 20px;
+      display: inline-flex;
+  }
+  .crard img{
+    top: 30px;
+    left: 30px;
+      width:45;
+      float: left;
+  
+  }
+  .crard h2
+  {
+      margin-left: 10px;
+      font-size: large;
+      font-family: EssentialBlack;
+      color: white;
+      text-decoration: none;
+  }
+    .ball{
+      margin-top: 10%;
+      margin-right:-110px;
+      width: 60;
+      z-index: 3;
+      float: right;
+      -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: examplebol;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .box{
+      margin-top: 35%;
+      top:0;
+      right: 0;
+      width:95;
+      position: absolute;
+      -webkit-animation-name: box2; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: box2;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      z-index: 1;
+  }
+  .long-box{
+      margin-top: 10%;
+      margin-right: 0px;
+      width: 65;
+      z-index: 3;
+      float: right;
+      -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: examplebol;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  } 
+    .explain{
+      margin-top: 40px;
+      
+      width: 100%;
+      min-height: 150px;
+    }
+    .explain p{
+    color: white;
+    font-family:EssentialLight ;
+    opacity: 0.5;
+    font-size: medium;
+    overflow-x: scroll;
+    }
+    footer{
+        margin-top: 25px;
+        padding-top: 60px;
+        padding-left: 150px;
+        width: 100%;
+      min-height: 350px;
+        background-color: #0c0128;
+      
+      }
+      #location{
+        padding: 0px  ;
+      
+      }
+      footer h1{
+        color: white;
+        font-family:EssentialBlack ;
+        font-size: x-large;
+      }
+      footer p{
+        color: white;
+        opacity: 0.5;
+        font-family: EssentialLight;
+        font-size: large;
+      }
+      #links{
+        padding: 0px 10px 0px 10px ;
+      }
+      #follow{
+        padding: 0px 5px 0px 0px ;
+      }
+      #links a{
+        color: white;
+        opacity: 0.5;
+        font-family: EssentialLight;
+        display: block;
+        font-size: large;
+      }
+      footer a:hover{
+        color: white;
+       text-decoration: none;
+      }
+      footer img{
+        width: 30;
+        color: white;
+        font-family: EssentialLight;
+        display:inline-flex;
+      }
+      .face{
+        margin: 0px 3px 0px 3px;
+      }
+  }
+  @media screen and (max-width:767px){
+ 
+      .container h1{
+          font-size:x-large;
+      }
+      .contcard{
+          padding: 0px 40px 0px 40px;
+          margin-left: 0px;
+          margin-bottom: 60px;
+         min-height: 100px;
+          width: 100%;
+          z-index: -1;
+      }
+      .crard{
+          padding: 20px 20px 5px 20px;
+         width: 100%;
+        height: 270px;
+         z-index: -1;
+        text-decoration: none;
+        display: block;
+        background-color:#0c0128;
+        border: none;
+        border-radius: 20px;
+          display: inline-flex;
+      }
+      .crard img{
+        top: 30px;
+        left: 30px;
+          width:45;
+          float: left;
+          margin-top: -5px;
+      }
+      .crard h2
+      {
+          margin-left: 10px;
+          font-size: large;
+          font-family: EssentialBlack;
+          color: white;
+          text-decoration: none;
+      }
+      .explain{
+        margin-top: 40px;
+        
+        width: 100%;
+        height: 50px;
+      }
+      .explain p{
+      color: white;
+      font-family:EssentialLight ;
+      opacity: 0.5;
+      font-size: medium;
+      overflow-x: scroll;
+      }
+      .crard:hover,.crard:focus{
+          text-decoration: none;
+      }
+      .crystal{
+          margin-bottom: 60px;
+          width: 65;
+          left: 0;
+          bottom: 0;
+          position: absolute;
+          -webkit-animation-name: iconpng; /* Safari 4.0 - 8.0 */
+          -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+          animation-name: iconpng;
+          animation-duration: 5s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in-out;
+      
+      }
+      .contain-img{
+          padding: 0px 60px 0px 60px;
+          margin-bottom: 60px;
+         height: 250px;
+          width: 100%;
+          position: relative;
+      }
+      .grid{
+          margin-left: 25%;
+          width:250;
+          z-index: -1;
+          height: auto;
+          overflow: auto;
+          position: absolute;
+      }
+      .statue{
+          margin-left: 30%;
+          width: 250;
+          z-index: 2;
+          position: absolute;
+          -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+          -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+          animation-name: example;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in-out;
+      }
+      .ball{
+          margin-top: 10%;
+          margin-right: 20%;
+          width: 60;
+          z-index: 3;
+          float: right;
+          -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+          -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+          animation-name: examplebol;
+          animation-duration: 5s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in-out;
+      }
+      .box{
+          margin-top: 35%;
+          top:0;
+          right: 0;
+          width:95;
+          position: absolute;
+          -webkit-animation-name: box2; /* Safari 4.0 - 8.0 */
+          -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+          animation-name: box2;
+          animation-duration: 5s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in-out;
+          z-index: 1;
+      }
+      .long-box{
+          margin-top: 10%;
+          margin-right: 25%;
+          width: 65;
+          z-index: 3;
+          float: right;
+          -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+          -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+          animation-name: examplebol;
+          animation-duration: 5s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in-out;
+      }  
+      footer{
+        margin-top: 25px;
+        padding-top: 60px;
+        padding-left: 90px;
+        width: 100%;
+      min-height: 350px;
+        background-color: #0c0128;
+      
+      }
+      #location{
+        padding: 0px  ;
+      
+      }
+      footer h1{
+        color: white;
+        font-family:EssentialBlack ;
+        font-size: x-large;
+      }
+      footer p{
+        color: white;
+        opacity: 0.5;
+        font-family: EssentialLight;
+        font-size: large;
+      }
+      #links{
+        padding: 0px 10px 0px 10px ;
+      }
+      #follow{
+        padding: 0px 5px 0px 0px ;
+      }
+      #links a{
+        color: white;
+        opacity: 0.5;
+        font-family: EssentialLight;
+        display: block;
+        font-size: large;
+      }
+      footer a:hover{
+        color: white;
+       text-decoration: none;
+      }
+      footer img{
+        width: 30;
+        color: white;
+        font-family: EssentialLight;
+        display:inline-flex;
+      }
+      .face{
+        margin: 0px 3px 0px 3px;
+      }
+  }
+  @media screen and (max-width: 575px){
+    .row {
+      margin-right: 0px;
+      margin-left: 0px;
+  }
+    .container h1{
+      font-size:x-large;
+      margin-bottom: 40px;
+      text-align: center;
+  }
+  .contcard{
+      padding: 0px 5px 0px 0px;
+      margin-left: 0px;
+      margin-bottom: 30px;
+     min-height: 90px;
+      width: 100%;
+      z-index: -1;
+  }
+  .crard{
+    margin: 0px;
+      padding:  5px 20px 0px 20px;
+     width: 100%;
+     min-height: 250px;
+     z-index: -1;
+    text-decoration: none;
+    display: block;
+    background-color:#0c0128;
+    border: none;
+    border-radius: 20px;
+      display: inline-flex;
+  }
+  .explain{
+    margin-top: 25px;
+    
+    width: 100%;
+    height: 50px;
+  }
+  .explain p{
+  color: white;
+  font-family:EssentialLight ;
+  opacity: 0.5;
+  font-size: medium;
+  overflow-x: scroll;
+  }
+  .crard img{
+    top: 30px;
+    left: 30px;
+      width:25;
+      float: left;
+      margin-top: 0px;
+  }
+  .crard h2
+  {
+      margin-left: 10px;
+      font-size: 19px;
+      font-family: EssentialBlack;
+      color: white;
+      text-decoration: none;
+  }
+  .crard:hover,.crard:focus{
+      text-decoration: none;
+  }
+  .crystal{
+      margin-bottom: 60px;
+      width: 35;
+      left: 0;
+      bottom: 0;
+      position: absolute;
+      -webkit-animation-name: iconpng; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: iconpng;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  
+  }
+  .contain-img{
+      padding: 0px;
+      margin-bottom: 0px;
+     height: 250px;
+      width: 100%;
+      position: relative;
+      align-items: center;
+  }
+  .grid{
+      margin-left: 34%;
+      width:160;
+      z-index: -1;
+      height: auto;
+      overflow: auto;
+      position: absolute;
+  }
+  .statue{
+    margin-left: 34%;
+      width: 160;
+      z-index: 2;
+      float: left;
+      position: absolute;
+      -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .ball{
+      margin-top: 15%;
+      margin-right: 25%;
+      width: 40;
+      z-index: 3;
+      float: right;
+      -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: examplebol;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .box{
+      margin-top:221 ;
+      bottom:0;
+      right: 0;
+      width:65;
+      position: absolute;
+      -webkit-animation-name: box2; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: box2;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      z-index: 1;
+  }
+  .long-box{
+      margin-top: 15%;
+      margin-right: 30%;
+      width: 35;
+      z-index: 3;
+      float: right;
+      -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: examplebol;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  } 
+  footer{
+    margin-top: 25px;
+    padding-top: 60px;
+    padding-left: 75px;
+    width: 100%;
+  min-height: 350px;
+    background-color: #0c0128;
+  
+  }
+  #location{
+    padding: 0px  ;
+  
+  }
+  footer h1{
+    color: white;
+    font-family:EssentialBlack ;
+    font-size: larger;
+  }
+  footer p{
+    color: white;
+    opacity: 0.5;
+    font-family: EssentialLight;
+    font-size: medium;
+  }
+  #links{
+    padding: 0px 10px 0px 10px ;
+  }
+  #follow{
+    padding: 0px 5px 0px 0px ;
+  }
+  #links a{
+    color: white;
+    opacity: 0.5;
+    font-family: EssentialLight;
+    display: block;
+    font-size: medium;
+  }
+  footer a:hover{
+    color: white;
+   text-decoration: none;
+  }
+  footer img{
+    width: 28;
+    color: white;
+    font-family: EssentialLight;
+    display:inline-flex;
+  }
+  .face{
+    margin: 0px 3px 0px 3px;
+  }
+  }
+  @media screen and (max-width: 440px){
+    .row {
+      margin-right: 0px;
+      margin-left: 0px;
+  }
+    .container h1{
+      font-size:large;
+      margin-bottom: 40px;
+      text-align: center;
+  }
+  .contcard{
+      padding: 0px 5px 0px 0px;
+      margin-left: 0px;
+      margin-bottom: 30px;
+     min-height: 150px;
+      width: 100%;
+      z-index: -1;
+  }
+  .crard{
+    margin: 0px;
+      padding:  5px 20px 5px 20px;
+     width: 100%;
+   min-height: 300px;
+     z-index: -1;
+    text-decoration: none;
+    display: block;
+    background-color:#0c0128;
+    border: none;
+    border-radius: 20px;
+      display: inline-flex;
+  }
+  .crard img{
+    top: 30px;
+    left: 30px;
+      width:25;
+      float: left;
+      margin-top: 0px;
+  }
+  .crard h2
+  {
+      margin-left: 10px;
+      font-size: 14px;
+      font-family: EssentialBlack;
+      color: white;
+      text-decoration: none;
+  }
+  .explain{
+    margin-top: 25px;
+    
+    width: 100%;
+    min-height: 150px;
+  }
+  .explain p{
+  color: white;
+  font-family:EssentialLight ;
+  opacity: 0.5;
+  font-size: medium;
+  overflow-x: scroll;
+  }
+  .crard:hover,.crard:focus{
+      text-decoration: none;
+  }
+  .crystal{
+      margin-bottom: 60px;
+      width: 35;
+      left: 0;
+      bottom: 0;
+      position: absolute;
+      -webkit-animation-name: iconpng; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: iconpng;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  
+  }
+  .contain-img{
+      padding: 0px;
+      margin-bottom: 0px;
+     height: 200px;
+      width: 100%;
+      position: relative;
+  }
+  .grid{
+      margin-left: 30%;
+      width:140;
+      z-index: -1;
+      height: auto;
+      overflow: auto;
+      position: absolute;
+  }
+  .statue{
+      margin-left: 0px;
+      margin-left: 30%;
+      width: 130;
+      z-index: 2;
+      float: left;
+      position: absolute;
+      -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .ball{
+      margin-top: 15%;
+      margin-right: 25%;
+      width: 30;
+      z-index: 3;
+      float: right;
+      -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: examplebol;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .box{
+      margin-top:221 ;
+      bottom:0;
+      right: 0;
+      width:65;
+      position: absolute;
+      -webkit-animation-name: box2; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: box2;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      z-index: 1;
+  }
+  .long-box{
+      margin-top: 15%;
+      margin-right: 30%;
+      width: 30;
+      z-index: 3;
+      float: right;
+      -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: examplebol;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  } 
+  footer{
+    margin-top: 25px;
+    padding-top: 60px;
+    padding-left: 20px;
+    width: 100%;
+  min-height: 350px;
+    background-color: #0c0128;
+  
+  }
+  #location{
+    padding: 0px  ;
+  
+  }
+  footer h1{
+    color: white;
+    font-family:EssentialBlack ;
+    font-size: medium;
+  }
+  footer p{
+    color: white;
+    opacity: 0.5;
+    font-family: EssentialLight;
+    font-size: small;
+  }
+  #links{
+    padding: 0px 10px 0px 10px ;
+  }
+  #follow{
+    padding: 0px 5px 0px 0px ;
+  }
+  #links a{
+    color: white;
+    opacity: 0.5;
+    font-family: EssentialLight;
+    display: block;
+    font-size: small;
+  }
+  footer a:hover{
+    color: white;
+   text-decoration: none;
+  }
+  footer img{
+    width: 25;
+    color: white;
+    font-family: EssentialLight;
+    display:inline-flex;
+  }
+  .face{
+    margin: 0px 3px 0px 3px;
+  }
+  }
+
+@media screen and (max-width: 343px){
+    .container h1{
+      font-size:large;
+      margin-bottom: 40px;
+  }
+  .contcard{
+      padding: 0px;
+      margin-left: 0px;
+      margin-bottom: 30px;
+     min-height: 120px;
+      width: 100%;
+      z-index: -1;
+  }
+  .crard{
+    margin: 0px;
+    padding: 5px 20px 5px 20px;
+     width: 100%;
+   min-height: 280px;
+     z-index: -1;
+    text-decoration: none;
+    display: block;
+    background-color:#0c0128;
+    border: none;
+    border-radius: 20px;
+      display: inline-flex;
+  }
+  .crard img{
+    top: 30px;
+    left: 30px;
+      width:25;
+      float: left;
+      margin-top: 0px;
+  }
+  .crard h2
+  {
+      margin-left: 10px;
+      font-size: 13px;
+      font-family: EssentialBlack;
+      color: white;
+      text-decoration: none;
+  }
+  .explain{
+    margin-top: 25px;
+    
+    width: 100%;
+    min-height: 150px;
+  }
+  .explain p{
+  color: white;
+  font-family:EssentialLight ;
+  opacity: 0.5;
+  font-size: small;
+  overflow-x: scroll;
+  }
+  .crard:hover,.crard:focus{
+      text-decoration: none;
+  }
+  .crystal{
+      margin-bottom: 60px;
+      width: 35;
+      left: 0;
+      bottom: 0;
+      position: absolute;
+      -webkit-animation-name: iconpng; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: iconpng;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  
+  }
+  .contain-img{
+      padding: 0px;
+      margin-bottom: 0px;
+     height: 200px;
+      width: 100%;
+      position: relative;
+      align-items: center;
+  }
+  .grid{
+      margin-left: 22%;
+      width:140;
+      z-index: -1;
+      height: auto;
+      overflow: auto;
+      position: absolute;
+  }
+  .statue{
+      margin-left: 22%;
+      width: 130;
+      z-index: 2;
+      float: left;
+      position: absolute;
+      -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .ball{
+      margin-top: 15%;
+      width: 30;
+      z-index: 3;
+      float: right;
+      -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: examplebol;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .box{
+      margin-top:221 ;
+      bottom:0;
+      right: 0;
+      width:65;
+      position: absolute;
+      -webkit-animation-name: box2; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: box2;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      z-index: 1;
+  }
+  .long-box{
+      margin-top: 15%;
+      margin-right: 25%;
+      width: 30;
+      z-index: 3;
+      float: right;
+      -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: examplebol;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  } 
+  footer{
+    margin-top: 25px;
+    padding-top: 60px;
+    padding-left: 15px;
+    width: 100%;
+  min-height: 350px;
+    background-color: #0c0128;
+  
+  }
+  #location{
+    padding: 0px  ;
+  
+  }
+  footer h1{
+    color: white;
+    font-family:EssentialBlack ;
+    font-size: medium;
+  }
+  footer p{
+    color: white;
+    opacity: 0.5;
+    font-family: EssentialLight;
+    font-size: small;
+  }
+  #links{
+    padding: 0px 10px 0px 10px ;
+  }
+  #follow{
+    padding: 0px 5px 0px 0px ;
+  }
+  #links a{
+    color: white;
+    opacity: 0.5;
+    font-family: EssentialLight;
+    display: block;
+    font-size: small;
+  }
+  footer a:hover{
+    color: white;
+   text-decoration: none;
+  }
+  footer img{
+    width: 25;
+    color: white;
+    font-family: EssentialLight;
+    display:inline-flex;
+  }
+  .face{
+    margin: 0px 3px 0px 3px;
+  } 
+  }

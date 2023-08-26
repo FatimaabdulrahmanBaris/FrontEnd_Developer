@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>Levant contact</title>
+        <link rel="shortcut icon" href="svg/levant logo-01.svg" type="image/x-icon">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="cssstyle/style.css">
+      <link rel="stylesheet" type="text/css" href="cssstyle/navestyle.css">
+      <link rel="stylesheet" type="text/css" href="cssstyle/contact.css">
+    </head>
+    <body>
+        <header id="navbar">
+            <nav class="navbar-container ">
+              <a class="navbar-brand" href="#">
+             <img  src="svg/levant logo-01.svg" style="margin-right: 25px;" > 
+             </a>
+              <button type="button" class="navbar-toggle" aria-label="Open navigation menu">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <div class="navbar-menu">
+                <ul class="navbar-links">
+                  <li class="navbar-item"><a class="navbar-link" href="index.html">Home</a></li>
+                  <li class="navbar-item"><a class="navbar-link " href="services.html">Services </a></li>
+                  <li class="navbar-item"><a class="navbar-link" href="aboutas.html">About Us</a></li>
+                  <li class="navbar-item"><a class="navbar-link active" href="contact.html">Contact</a></li>
+               
+                </ul>
+              </div>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="row">
+              <div class="col-xm-12 col-sm-6 col-md-6 col-lg-6" id="contain-img">
+                    
+                <img class="grid" src="svg/grid.svg">
+                <img class="statue" src="img/statue 4-01.png">
+                <img class="long-box" src="svg/long box.svg">
+                <img class="ball" src="img/ball-01.png">
+        </div>
+                <div class="col-xm-12 col-sm-6 col-md-6 col-lg-6" id="contact">
+                    <h1>Contact Us</h1>
+                    <p>Tell us more about your brand</p>
+                    <form style="display:block; width: 100%;">
+                        <div style="margin-bottom: 10px; width: 100%;">
+                            <input type="text" name="" placeholder="     Name">
+                        </div>
+                        <div style="margin-bottom: 10px; width: 100%;">
+                            <input type="text" name="" placeholder="     Email">
+                        </div>
+                        <div style="margin-bottom: 10px; width: 100%;">
+                            
+                        <textarea placeholder="     Message"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+          <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="location">
+              <h1>Location</h1>
+              <p>Aleppo, Syria</p>
+              <p>Azizieh, Al ouroba Building First Floor</p>
+      
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="links">
+              <h1>Links</h1>
+              <a href="#">Home</a>
+              <a href="#">About Us</a>
+              <a href="#">Services</a>
+      
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="follow">
+              <h1>Follow Us</h1>
+              <a href="#">
+                <img src="svg/insta.svg" >
+              </a>
+              <a href="#">
+                <img class="face" src="svg/face.svg" href="#">
+              </a>
+             
+              <a href="#">
+                <img src="svg/twitter.svg" href="#">
+              </a>
+              
+            </div>
+          </div>
+         
+        </footer>
+    </body>
+    <script src="js/nav.js"></script>
+    <script>
+      window.onscroll = function() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+      document.getElementById("navbar").style.backgroundColor = "#0c0128";
+                                   }
+     else {
+      document.getElementById("navbar").style.backgroundColor = "transparent";
+    }
+  
+  }
+      </script>
+</html>

@@ -1,0 +1,853 @@
+@font-face{
+    font-family: EssentialBlack;
+    src: url('Gilroy-ExtraBold.otf');
+  }
+   @font-face{
+    font-family: EssentialLight;
+    src: url('Gilroy-Light.otf');
+  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+body {
+    height: 100vh;
+    line-height: 1.6;
+    background-color:0c0150;
+    color: white;
+    }
+ header{
+        z-index: 9;
+      }
+ .container{
+        padding-top: 100px;
+      }
+ #contact{
+    padding-left: 0px;
+      }
+.container h1{
+          margin-bottom: 5px;
+          font-size:xx-large;
+          font-family: EssentialBlack;
+          color: white;
+          text-align: left;
+      }
+.container p{
+    color: white;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    font-family: EssentialLight;
+}
+ input{
+          width: 90%;
+          height: 50px;
+          background-color: 0c0128;
+          border: none;
+          border-radius: 13px;
+          font-family: EssentialLight;
+      }
+ textarea{
+    width: 90%;
+    height: 100px;
+    background-color: #0c0128;
+    border: none;
+    border-radius: 13px;
+    font-family: EssentialLight;
+ }
+ #contain-img{
+     padding: 80px 90px 0px 10px;
+ }
+ .grid{
+    margin-left: 30%;
+    width:280;
+    z-index: -1;
+    height: auto;
+    overflow: auto;
+    position: absolute;
+}
+.statue{
+    margin-top: 25px;
+    margin-left: 28%;
+    width: 270;
+    z-index: 2;
+    position: absolute;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.ball{
+    margin-top: 45%;
+    margin-right: -62px;
+    width: 60;
+    z-index: 3;
+    float: right;
+    -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: examplebol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.long-box{
+    margin-top: 10%;
+    margin-right: 10%;
+    width: 80;
+    z-index: 3;
+    float: right;
+    -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: examplebol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@-webkit-keyframes example {
+    0%   { left:0px; top:15px;
+      transform:rotatey(5deg);}
+    50%    { left:0px; top:0px;
+      transform:rotatey(0deg);}
+  100%   { left:0px; top:15px;
+    transform:rotatey(5deg);}
+  
+  }
+  @keyframes example {
+    0%   { left:0px; top:15px;
+      transform:rotatez(3deg);}
+    50%    { left:0px; top:0px;
+      transform:rotatez(0deg);}
+  100%   { left:0px; top:15px;
+    transform:rotatez(3deg);}
+  }
+  @-webkit-keyframes examplebol {
+    0%   { left:0px; top:0px;
+      transform: rotateZ(23deg);}
+    50%    { left:0px; top:20px;
+      transform: rotateZ(-23deg);}
+  100%   { left:0px; top:0px;
+    transform: rotateZ(23deg);}
+  }
+  
+  /* Standard syntax */
+  @keyframes examplebol {
+    0%   { left:0px; top:0px;
+    transform: rotateZ(23deg);}
+    50%    { left:0px; top:20px;
+      transform: rotateZ(-23deg);}
+  100%   { left:0px; top:0px;
+    transform: rotateZ(23deg);}
+  }
+  @media screen and (max-width: 991px){
+    #contact{
+      padding-left: 50px;
+        }
+  .container h1{
+            margin-bottom: 5px;
+            font-size:x-large;
+            font-family: EssentialBlack;
+            color: white;
+            text-align: left;
+        }
+  .container p{
+      color: white;
+      opacity: 0.5;
+      margin-bottom: 20px;
+      font-family: EssentialLight;
+      font-size: larger;
+  }
+   input{
+            width: 100%;
+            height: 50px;
+            background-color: 0c0128;
+            border: none;
+            border-radius: 13px;
+            font-family: EssentialLight;
+        }
+   textarea{
+      width: 100%;
+      height: 100px;
+      background-color: #0c0128;
+      border: none;
+      border-radius: 13px;
+      font-family: EssentialLight;
+   }
+   #contain-img{
+       padding: 80px 200px 0px 10px;
+   }
+   .grid{
+      margin-left: 20%;
+      width:230;
+      z-index: -1;
+      height: auto;
+      overflow: auto;
+      position: absolute;
+  }
+  .statue{
+      margin-top: 25px;
+      margin-left: 7%;
+      width: 250;
+      z-index: 2;
+      position: absolute;
+      -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .ball{
+      margin-top: 65%;
+      margin-right: -126px;
+      width: 60;
+      z-index: 3;
+      float: right;
+      -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: examplebol;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .long-box{
+      margin-top: 10%;
+      margin-right: -86%;
+      width: 80;
+      z-index: 3;
+      float: right;
+      -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+      animation-name: examplebol;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  footer{
+    margin-top: 25px;
+    padding-top: 60px;
+    padding-left: 150px;
+    width: 100%;
+  min-height: 300px;
+    background-color: #0c0128;
+  
+  }
+  #location{
+    padding: 0px  ;
+  
+  }
+  footer h1{
+    color: white;
+    font-family:EssentialBlack ;
+    font-size: x-large;
+  }
+  footer p{
+    color: white;
+    opacity: 0.5;
+    font-family: EssentialLight;
+    font-size: large;
+  }
+  #links{
+    padding: 0px 10px 0px 10px ;
+  }
+  #follow{
+    padding: 0px 5px 0px 0px ;
+  }
+  #links a{
+    color: white;
+    opacity: 0.5;
+    font-family: EssentialLight;
+    display: block;
+    font-size: large;
+  }
+  footer a:hover{
+    color: white;
+   text-decoration: none;
+  }
+  footer img{
+    width: 30;
+    color: white;
+    font-family: EssentialLight;
+    display:inline-flex;
+  }
+  .face{
+    margin: 0px 3px 0px 3px;
+  }
+  }
+@media screen and (max-width: 767px){
+  #contact{
+    margin-top: 320px;
+    padding-left: 20px;
+      }
+.container h1{
+          margin-bottom: 5px;
+          font-size:x-large;
+          font-family: EssentialBlack;
+          color: white;
+          text-align: left;
+      }
+.container p{
+    color: white;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    font-family: EssentialLight;
+  font-size: medium;
+}
+ input{
+          width: 98%;
+          height: 50px;
+          background-color: 0c0128;
+          border: none;
+          border-radius: 13px;
+          font-family: EssentialLight;
+          font-size: small;
+      }
+ textarea{
+    width: 98%;
+    height: 100px;
+    background-color: #0c0128;
+    border: none;
+    border-radius: 13px;
+    font-family: EssentialLight;
+    font-size: small;
+ }
+ #contain-img{
+     padding: 20px 30px 0px 0px;
+ }
+ .grid{
+    margin-left: 27%;
+    width:290;
+    z-index: -1;
+    height: auto;
+    overflow: auto;
+    position: absolute;
+}
+.statue{
+    margin-top: 25px;
+    margin-left: 23%;
+    width: 250;
+    z-index: 2;
+    position: absolute;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.ball{
+    margin-top: 30%;
+    margin-right: -62px;
+    width: 50;
+    z-index: 3;
+    float: right;
+    -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: examplebol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.long-box{
+    margin-top: 10%;
+    margin-right: 30%;
+    width: 85;
+    z-index: 3;
+    float: right;
+    -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: examplebol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+footer{
+  margin-top: 25px;
+  padding-top: 60px;
+  padding-left: 90px;
+  width: 100%;
+min-height: 300px;
+  background-color: #0c0128;
+
+}
+#location{
+  padding: 0px  ;
+
+}
+footer h1{
+  color: white;
+  font-family:EssentialBlack ;
+  font-size: x-large;
+}
+footer p{
+  color: white;
+  opacity: 0.5;
+  font-family: EssentialLight;
+  font-size: large;
+}
+#links{
+  padding: 0px 10px 0px 10px ;
+}
+#follow{
+  padding: 0px 5px 0px 0px ;
+}
+#links a{
+  color: white;
+  opacity: 0.5;
+  font-family: EssentialLight;
+  display: block;
+  font-size: large;
+}
+footer a:hover{
+  color: white;
+ text-decoration: none;
+}
+footer img{
+  width: 30;
+  color: white;
+  font-family: EssentialLight;
+  display:inline-flex;
+}
+.face{
+  margin: 0px 3px 0px 3px;
+}
+}
+@media screen and (max-width: 575px){
+  #contact{
+    margin-top: 290px;
+    padding-left: 20px;
+      }
+.container h1{
+          margin-bottom: 5px;
+          font-size:x-large;
+          font-family: EssentialBlack;
+          color: white;
+          text-align: left;
+      }
+.container p{
+    color: white;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    font-family: EssentialLight;
+  font-size: medium;
+}
+ input{
+          width: 98%;
+          height: 50px;
+          background-color: 0c0128;
+          border: none;
+          border-radius: 13px;
+          font-family: EssentialLight;
+          font-size: small;
+      }
+ textarea{
+    width: 98%;
+    height: 100px;
+    background-color: #0c0128;
+    border: none;
+    border-radius: 13px;
+    font-family: EssentialLight;
+    font-size: small;
+ }
+ #contain-img{
+     padding: 20px 20px 0px 0px;
+ }
+ .grid{
+    margin-left: 20%;
+    width:260;
+    z-index: -1;
+    height: auto;
+    overflow: auto;
+    position: absolute;
+}
+.statue{
+    margin-top: 25px;
+    margin-left: 15%;
+    width: 230;
+    z-index: 2;
+    position: absolute;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.ball{
+    margin-top: 30%;
+    margin-right: -62px;
+    width: 50;
+    z-index: 3;
+    float: right;
+    -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: examplebol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.long-box{
+    margin-top: 10%;
+    margin-right: 30%;
+    width: 80;
+    z-index: 3;
+    float: right;
+    -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: examplebol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+footer{
+  margin-top: 25px;
+  padding-top: 60px;
+  padding-left: 75px;
+  width: 100%;
+min-height: 300px;
+  background-color: #0c0128;
+
+}
+#location{
+  padding: 0px  ;
+
+}
+footer h1{
+  color: white;
+  font-family:EssentialBlack ;
+  font-size: larger;
+}
+footer p{
+  color: white;
+  opacity: 0.5;
+  font-family: EssentialLight;
+  font-size: medium;
+}
+#links{
+  padding: 0px 10px 0px 10px ;
+}
+#follow{
+  padding: 0px 5px 0px 0px ;
+}
+#links a{
+  color: white;
+  opacity: 0.5;
+  font-family: EssentialLight;
+  display: block;
+  font-size: medium;
+}
+footer a:hover{
+  color: white;
+ text-decoration: none;
+}
+footer img{
+  width: 28;
+  color: white;
+  font-family: EssentialLight;
+  display:inline-flex;
+}
+.face{
+  margin: 0px 3px 0px 3px;
+}
+}
+@media screen and (max-width: 440px){
+  #contact{
+    margin-top: 250px;
+    padding-left: 20px;
+      }
+.container h1{
+          margin-bottom: 5px;
+          font-size:large;
+          font-family: EssentialBlack;
+          color: white;
+          text-align: left;
+      }
+.container p{
+    color: white;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    font-family: EssentialLight;
+  font-size: small;
+}
+ input{
+          width: 98%;
+          height: 50px;
+          background-color: 0c0128;
+          border: none;
+          border-radius: 13px;
+          font-family: EssentialLight;
+          font-size: small;
+      }
+ textarea{
+    width: 98%;
+    height: 100px;
+    background-color: #0c0128;
+    border: none;
+    border-radius: 13px;
+    font-family: EssentialLight;
+    font-size: small;
+ }
+ #contain-img{
+     padding: 20px 20px 0px 0px;
+ }
+ .grid{
+    margin-left: 20%;
+    width:200;
+    z-index: -1;
+    height: auto;
+    overflow: auto;
+    position: absolute;
+}
+.statue{
+    margin-top: 25px;
+    margin-left: 15%;
+    width: 180;
+    z-index: 2;
+    position: absolute;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.ball{
+    margin-top: 30%;
+    margin-right: -62px;
+    width: 40;
+    z-index: 3;
+    float: right;
+    -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: examplebol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.long-box{
+    margin-top: 10%;
+    margin-right: 30%;
+    width: 70;
+    z-index: 3;
+    float: right;
+    -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: examplebol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+footer{
+  margin-top: 25px;
+  padding-top: 60px;
+  padding-left: 20px;
+  width: 100%;
+min-height: 300px;
+  background-color: #0c0128;
+
+}
+#location{
+  padding: 0px  ;
+
+}
+footer h1{
+  color: white;
+  font-family:EssentialBlack ;
+  font-size: medium;
+}
+footer p{
+  color: white;
+  opacity: 0.5;
+  font-family: EssentialLight;
+  font-size: small;
+}
+#links{
+  padding: 0px 10px 0px 10px ;
+}
+#follow{
+  padding: 0px 5px 0px 0px ;
+}
+#links a{
+  color: white;
+  opacity: 0.5;
+  font-family: EssentialLight;
+  display: block;
+  font-size: small;
+}
+footer a:hover{
+  color: white;
+ text-decoration: none;
+}
+footer img{
+  width: 25;
+  color: white;
+  font-family: EssentialLight;
+  display:inline-flex;
+}
+.face{
+  margin: 0px 3px 0px 3px;
+}
+}
+@media screen and (max-width: 343px){
+  #contact{
+    margin-top: 250px;
+    padding-left: 20px;
+      }
+.container h1{
+          margin-bottom: 5px;
+          font-size:large;
+          font-family: EssentialBlack;
+          color: white;
+          text-align: left;
+      }
+.container p{
+    color: white;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    font-family: EssentialLight;
+  font-size: small;
+}
+ input{
+          width: 98%;
+          height: 50px;
+          background-color: 0c0128;
+          border: none;
+          border-radius: 13px;
+          font-family: EssentialLight;
+          font-size: small;
+      }
+ textarea{
+    width: 98%;
+    height: 100px;
+    background-color: #0c0128;
+    border: none;
+    border-radius: 13px;
+    font-family: EssentialLight;
+    font-size: small;
+ }
+ #contain-img{
+     padding: 20px 20px 0px 0px;
+ }
+ .grid{
+    margin-left: 20%;
+    width:200;
+    z-index: -1;
+    height: auto;
+    overflow: auto;
+    position: absolute;
+}
+.statue{
+    margin-top: 25px;
+    margin-left: 15%;
+    width: 180;
+    z-index: 2;
+    position: absolute;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.ball{
+    margin-top: 45%;
+    margin-right: -62px;
+    width: 40;
+    z-index: 3;
+    float: right;
+    -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: examplebol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.long-box{
+    margin-top: 10%;
+    margin-right: 10%;
+    width: 70;
+    z-index: 3;
+    float: right;
+    -webkit-animation-name: examplebol; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: examplebol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+footer{
+  margin-top: 25px;
+  padding-top: 60px;
+  padding-left: 15px;
+  width: 100%;
+min-height: 300px;
+  background-color: #0c0128;
+
+}
+#location{
+  padding: 0px  ;
+
+}
+footer h1{
+  color: white;
+  font-family:EssentialBlack ;
+  font-size: medium;
+}
+footer p{
+  color: white;
+  opacity: 0.5;
+  font-family: EssentialLight;
+  font-size: small;
+}
+#links{
+  padding: 0px 10px 0px 10px ;
+}
+#follow{
+  padding: 0px 5px 0px 0px ;
+}
+#links a{
+  color: white;
+  opacity: 0.5;
+  font-family: EssentialLight;
+  display: block;
+  font-size: small;
+}
+footer a:hover{
+  color: white;
+ text-decoration: none;
+}
+footer img{
+  width: 25;
+  color: white;
+  font-family: EssentialLight;
+  display:inline-flex;
+}
+.face{
+  margin: 0px 3px 0px 3px;
+} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
