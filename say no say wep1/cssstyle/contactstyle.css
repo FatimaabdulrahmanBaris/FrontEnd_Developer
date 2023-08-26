@@ -1,0 +1,281 @@
+@font-face{
+  font-family: EssentialBlack;
+  src: url('Alvar Essential Black.otf');
+}
+ @font-face{
+  font-family: EssentialLight;
+  src: url('Alvar Essential Light.otf');
+}
+@font-face{
+  font-family: AlvarEssentialSemiBold;
+  src: url('Alvar Essential SemiBold.otf');
+}
+.contdots{
+      margin: 79px 0px 0px 0px;
+      padding: 0px;
+      width: 100%;
+      min-height: 30px;
+      position: relative;
+     }
+     .quick{
+     	width: 45%;
+
+     }
+     .sendbutom{
+     	width: 100%;
+     	min-height: 30px;
+     }
+     .sendbutom a{
+     	width: 17%;
+     	float: right;
+     	-webkit-transition: width 0.3s;
+    transition: width 0.3s;
+     }
+      .sendbutom a:hover{
+     	width: 18%;
+     	float: right;
+     }
+     .send{
+     	width: 100%;
+     	top: 0px;
+     	right: 0px;
+     	margin: 0px;
+     	float: right;
+     }
+     p{
+     	margin-left: 35%;
+     	width: 30%;
+     	color: #030c30;
+     	opacity: 0.5;
+     	font-family: AlvarEssentialSemiBold;
+     	font-size: 15px;
+     	text-align: center;
+     	vertical-align: center;
+     }
+
+
+
+.contain{
+		min-height: 100px;
+	}
+	.dots3 {
+    margin-top: 95px;
+    top: 0px;
+    left: 0px;
+    width: 40%;
+    float: left;
+    z-index: -1;
+    position: absolute;
+}
+.col-lg-3 .info{
+	width: 100%;
+	min-height: 10px;
+	margin: 5px;
+	display: inline;
+}
+
+input[type=text]{
+	width: 100%;
+	min-height: 40px;
+	color:  #030c30;
+	font-family: AlvarEssentialSemiBold;
+	background-color: #e8ebef;
+  border:1px solid white;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+    transition: 0.3s;
+    outline: none;
+}
+input[type=text]:hover{
+	border-color: rgba(0,1,1,0.3);
+}
+input[type=text]:focus{
+border-color: rgba(0,1,1,0.3);
+  border:1px solid;
+  border-radius: 10px;
+}
+.infotexatea{
+	width: 100%;
+	min-height: 20px;
+	margin: 20px 0px 0px 0px;
+
+}
+textarea{
+		width: 100%;
+	min-height: 140px;
+	color:  #030c30;
+	font-family: AlvarEssentialSemiBold;
+	background-color: #e8ebef;
+  border:1px solid white;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+    transition: 0.3s;
+    outline: none;
+}
+textarea:hover{
+	border-color: rgba(0,1,1,0.3);
+}
+textarea:focus{
+border-color: rgba(0,1,1,0.3);
+  border:1px solid;
+  border-radius: 10px;
+}
+.foter {
+    margin: 0px;
+    position: relative;
+    width: 100%;
+    min-height: 60px;
+}
+.dots3 {
+    margin-top: 25px;
+    top: 0px;
+    left: 0px;
+    width: 40%;
+    float: left;
+    z-index: -1;
+    position: absolute;
+}
+.contact {
+    margin-top: 25px;
+    width: 50%;
+}
+
+@media screen and (max-width: 767px){
+  .contdots{
+      margin: 60px 0px 0px 0px;
+      padding: 0px;
+      width: 100%;
+      min-height: 30px;
+      position: relative;
+     }
+	.quick{
+     	width: 65%;
+     }
+     p{
+     	margin-left: 16%;
+     	width: 70%;
+     }
+    
+     input[type=text]{
+     	margin-bottom: 20px;
+     }
+      .sendbutom a{
+     	width: 40%;
+     	float: right;
+     	-webkit-transition: width 0.3s;
+    transition: width 0.3s;
+     }
+      .sendbutom a:hover{
+     	width: 41%;
+     	float: right;
+     }
+}
+
+@media screen and (max-width: 575px){
+
+  .contdots{
+      margin: 60px 0px 0px 0px;
+      padding: 0px;
+      width: 100%;
+      min-height: 30px;
+      position: relative;
+     }
+	.quick{
+     	width: 65%;
+     }
+     p{
+     	margin-left: 10%;
+     	width: 80%;
+     }
+     .row{
+       margin-left: 0px;
+       margin-right: 0px;
+     }
+     form{
+      padding: 20px 0px 20px 0px;
+    }
+     input[type=text]{
+     	margin-bottom: 20px;
+     }
+      .sendbutom a{
+     	width: 40%;
+     	float: right;
+     	-webkit-transition: width 0.3s;
+    transition: width 0.3s;
+     }
+      .sendbutom a:hover{
+     	width: 41%;
+     	float: right;
+     }
+}
+@media screen and (max-width: 440px){
+   .contdots{
+      margin: 60px 0px 0px 0px;
+      padding: 0px;
+      width: 100%;
+      min-height: 30px;
+      position: relative;
+     }
+	.quick{
+     	width: 65%;
+     }
+     p{
+     	margin-left: 16%;
+     	width: 70%;
+     }
+   form{
+     padding: 20px 0px 20px 0px;
+   }
+     input[type=text]{
+     	margin-bottom: 20px;
+     }
+      .sendbutom a{
+     	width: 40%;
+     	float: right;
+     	-webkit-transition: width 0.3s;
+    transition: width 0.3s;
+     }
+      .sendbutom a:hover{
+     	width: 41%;
+     	float: right;
+     }
+     .row{
+       padding: 0px;
+       margin-left: 0px;
+       margin-right: 0px;
+     }
+  
+}
+@media screen and (max-width: 343px){
+  .contdots{
+      margin: 60px 0px 0px 0px;
+      padding: 0px;
+      width: 100%;
+      min-height: 30px;
+      position: relative;
+     }
+	.quick{
+     	width: 65%;
+     }
+     p{
+     	margin-left: 16%;
+     	width: 70%;
+     }
+     
+     input[type=text]{
+     	margin-bottom: 20px;
+     }
+      .sendbutom a{
+     	width: 40%;
+     	float: right;
+     	-webkit-transition: width 0.3s;
+    transition: width 0.3s;
+     }
+      .sendbutom a:hover{
+     	width: 41%;
+     	float: right;
+     }
+     form{
+      padding: 20px 0px 20px 0px;
+    }
+}

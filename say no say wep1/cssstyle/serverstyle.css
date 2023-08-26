@@ -1,0 +1,124 @@
+
+@font-face{
+  font-family: EssentialBlack;
+  src: url('Alvar Essential Black.otf');
+}
+ @font-face{
+  font-family: EssentialLight;
+  src: url('Alvar Essential Light.otf');
+}
+@font-face{
+  font-family: AlvarEssentialSemiBold;
+  src: url('Alvar Essential SemiBold.otf');
+}
+  .wep{
+     	margin:0 auto;
+     	width: 40%;	
+     }
+   
+     .explain{
+     	margin-top:10px;
+     	margin-left: 10%;
+     	width: 85%;
+     	min-height: 200px;
+     	background-color: #e8ebef;
+        border:1px solid white;
+     	border-radius: 30px;
+     	position: center;
+     	float: center;
+     }
+     p{
+        margin: 30px;
+        color: #030c30;
+        font-family: EssentialLight;
+        font-size: 26px;
+        overflow: auto;
+     }
+     @media screen and (max-width: 991px){
+
+         .wep{
+        margin:0 auto;
+        width: 40%; 
+     }
+     }
+       @media screen and (max-width: 767px){
+          .wep{
+        margin:0 auto;
+        width: 70%; 
+     }
+      .explain{
+        margin-top:10px;
+        margin-left: 10%;
+        width: 85%;
+        min-height: 100px;
+        background-color: #e8ebef;
+        border:1px solid white;
+        border-radius: 15px;
+        position: center;
+        float: center;
+     }
+       p{
+        font-size: 19px;
+     } 
+     }
+       @media screen and (max-width: 575px){
+          .wep{
+        margin:0 auto;
+        width: 70%; 
+     }
+     .explain{
+        margin-top:10px;
+        margin-left: 10%;
+        width: 85%;
+        min-height: 90px;
+        background-color: #e8ebef;
+        border:1px solid white;
+        border-radius: 15px;
+        position: center;
+        float: center;
+     }
+       p{
+        font-size: 16px;
+     } 
+     }
+       @media screen and (max-width: 440px){
+          .wep{
+        margin:0 auto;
+        width: 70%; 
+     }
+     .explain{
+        margin-top:10px;
+        margin-left: 10%;
+        width: 85%;
+        min-height: 90px;
+        background-color: #e8ebef;
+        border:1px solid white;
+        border-radius: 15px;
+        position: center;
+        float: center;
+     }
+       p{
+        font-size: 15px;
+     } 
+     }
+       @media screen and (max-width: 343px){
+          .wep{
+        margin:0 auto;
+        width: 70%; 
+     }
+      .explain{
+        margin-top:10px;
+        margin-left: 10%;
+        width: 85%;
+        min-height: 90px;
+        background-color: #e8ebef;
+        border:1px solid white;
+        border-radius: 15px;
+        position: center;
+        float: center;
+     }
+     p{
+        font-size: 15px;
+     }
+        
+     }

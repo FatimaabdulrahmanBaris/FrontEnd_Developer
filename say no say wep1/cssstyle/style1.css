@@ -1,0 +1,1046 @@
+@font-face{
+  font-family: EssentialBlack;
+  src: url('Alvar Essential Black.otf');
+}
+ @font-face{
+  font-family: EssentialLight;
+  src: url('Alvar Essential Light.otf');
+}
+@font-face{
+  font-family: AlvarEssentialSemiBold;
+  src: url('Alvar Essential SemiBold.otf');
+}
+   
+#myVideo {
+      margin-top: 20px;
+  position: relative;
+display: flex;
+  right: 0;
+  bottom: 0;
+ width: 100%; 
+ overflow: hidden;
+ z-index: -1;
+  
+}
+.navbar-brand{
+    padding: 0px;
+    width: 70px;
+  }
+  .navbar-brand img{
+    width: 100%;
+    margin: 0px;
+    overflow: auto;
+  }
+/*.navbar{
+ 
+       font-family: AlvarEssentialSemiBold;
+       background-color: rgba(255,255,255,0);
+       border-color: rgba(255,255,255,0);
+
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle{
+  border:1px solid black;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: black;
+}
+.nav>li>a{
+  margin: 25px;
+  padding: 0px;
+    font-family: AlvarEssentialSemiBold;
+  font-size: 20px;
+  color: #030c30;
+  opacity: 0.5;
+}
+.nav>li>.active{
+ color: #030c30;
+  opacity:1;
+}*/
+.contain{
+  margin-top: 40px;
+  padding: 0px;
+  position: relative;
+}
+.service{
+width: 25%;
+}
+.dots{
+ float: right;
+ top: 0px;
+ right: 0px;
+  width: 30%;
+  z-index: -1;
+  position: absolute;
+
+
+}
+.contanbotton{
+  margin-top: 50px;
+  margin-left: 0%;
+  min-height: 150px;
+}
+.contanbotton .row{
+  width: 100%;
+  margin: 0px;
+padding: 0px;
+display: inline-flex;
+}
+.contanbotton .row .botton{
+
+  margin: 10px;
+  margin-right: 15px;
+  padding: 10px 0px 10px 0px;
+  width: 43%;
+  height: 90px;
+  background-color: #e8ebef;
+  border:1px solid white;
+  border-radius: 20px;
+}
+.contanbotton .row .botton a{
+  margin: 0px;
+  text-decoration: none;
+    color: #030c30;
+    font-family: EssentialLight;
+    font-size: 27px;
+
+}
+.contanbotton .row .botton img{
+  width: 60px;
+   margin:10px 5px 10px 10px;
+}
+
+.profilecontan{
+  margin-top: 120px;
+  padding: 0px;
+  width: 100%;
+ min-height: 400px;
+  position: relative;
+ 
+}
+.profile{
+  width: 25%;
+}
+.folder{
+  margin: 20px 0px 10px 5px;
+  padding: 0px;
+  width: 50%;
+  min-height: 50px;
+}
+.folder p{
+  margin:1px 0px 0px 15px;
+  padding: 0px;
+  color: #030c30;
+  opacity: 0.5;
+  font-family: AlvarEssentialSemiBold;
+  font-size: 25px;
+  overflow: auto;
+}
+.ok{
+  margin: -111px 5px 0px 5px;
+  padding: 0px;
+  width: 30%;
+  min-height: 30px;
+  top: 0px;
+  right: 0px;
+  
+}
+.ok img{
+  width: 100%;
+  height: auto;
+}
+.dots2{
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+  float: left;
+position: absolute;
+width: 100%;
+z-index: -1;
+}
+.foter{
+  margin: 0px;
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+}
+.imgwhoare{
+  width: 90%;
+}
+.contact{
+  margin-top: 90px;
+  width: 50%;
+}
+.dots3{
+  margin-top: 95px;
+  top: 0px;
+  right: 0px;
+  width: 70%;
+  float: right;
+  z-index: -1;
+  position: absolute;
+
+}
+footer{
+  margin-top: 0px;
+  width: 100%;
+  padding-top: 20px;
+   padding-bottom: 50px;
+  min-height: 200px;
+  background-color: #030c30;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+footer .row{
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  width: 100%;
+  min-height: 150px;
+  display: inline-flex;
+}
+footer h2{
+  color: white;
+   font-family: AlvarEssentialSemiBold;
+}
+.card1{
+  margin-left: 200px;
+  width: 20%;
+}
+.card1 img{
+  width: 150px;
+}
+.card1 h3{
+  margin-left: 12px;
+color: white;
+    font-family: EssentialLight;
+  opacity: 0.5;
+}
+.card2{
+   margin-left: 120px;
+  width: 20%;
+}
+.card2 img{
+  width: 150px;
+}
+.link{
+ margin-left: 12px;
+ display:block;
+}
+.card2 a{
+  color: white;
+  display: block;
+  margin:10px;
+    font-family: EssentialLight;
+  font-size: 20px; 
+  text-decoration: none;
+  opacity: 0.5;
+}
+.card3{
+   margin-left: 70px;
+  width: 20%;
+  display: block;
+}
+.card3 .follow{
+  width: 150px;
+}
+.aimg{
+  margin-top: 15px;
+  width:40px;
+}
+.aimgv{
+  margin: 15px 5px 0px 5px;
+    width:40px;
+}
+.img{
+
+  margin-left: 12px;
+  display: inline;
+}
+
+
+
+@media screen and (max-width: 991px){
+ /* .navbar-collapse {
+        position: fixed;
+        top: 50px;
+        right: 0px;
+        background-color:rgb(220,220,220);
+        border-radius: 15px;
+        width: 150px;
+        padding: 15px;
+    }
+   */
+    .navbar-brand{
+      margin-left: 10px;
+    }
+   .contain{
+  margin-top: 10px;
+  position: relative;
+}
+.service{
+width: 25%;
+margin-bottom: 20px;
+}
+.profile{
+  width: 25%;
+}
+.contanbotton{
+  margin-left: 0px;
+  width: 100%;
+  min-height: 150px;
+}
+.contanbotton .row{
+  width: 100%;
+  margin: 10px 0px;
+padding: 0px;
+}
+.contanbotton .row .botton{
+
+  margin: 10px;
+  margin-right: 15px;
+  padding: 5px 0px 10px 0px;
+  width: 45%;
+  height: 80px;
+  background-color: #e8ebef;
+  border:1px solid white;
+  border-radius: 15px;
+}
+.contanbotton .row .botton a{
+  margin: 0px;
+  text-decoration: none;
+    color: #030c30;
+    font-family: EssentialLight;
+    font-size: 20px;
+
+}
+.contanbotton .row .botton img{
+  width: 55px;
+  margin:10px 5px 10px 5px;
+}
+.folder{
+  margin: 20px 5px 10px 5px;
+  padding: 0px;
+  width: 50%;
+  min-height: 50px;
+}
+.folder p{
+  margin-left: 15px;
+  color: #030c30;
+  opacity: 0.5;
+  font-family: AlvarEssentialSemiBold;
+  font-size: 20px;
+}
+
+  footer{
+  margin-top: 0px;
+  width: 100%;
+  min-height: 200px;
+  background-color: #030c30;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+footer .row{
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  width: 100%;
+  min-height: 150px;
+  display: inline-flex;
+}
+
+.card1{
+  margin: 0px;
+  margin-left: 200px;
+  padding: 0px;
+  width: 20%;
+}
+  .card1 img{
+    width:150px;
+  }
+.card1 h3{
+  margin-left: 12px;
+color: white;
+  font-size: 20px;
+font-family: EssentialLight;
+opacity: 0.5;
+}
+.card2{
+  margin-left: 90px;
+  width: 20%;
+}
+.card2 img{
+  width: 150px;
+}
+.link{
+ margin-left: 10px;
+ display:block;
+}
+.card2 a{
+  color: white;
+  display: block;
+  margin:10px;
+    font-family: EssentialLight;
+  font-size: 20px; 
+  text-decoration: none;
+  opacity: 0.5;
+}
+.card3{
+   margin-left: 20px;
+  width: 20%;
+  display: block;
+}
+.card3 .follow{
+  width: 150px;
+}
+.aimg{
+  margin-top: 15px;
+  width:25px;
+}
+.aimgv{
+  margin: 15px 2px 0px 2px;
+  width:25px;
+}
+.img{
+  margin-left: 10px;
+  display: inline;
+}
+
+}
+
+@media screen and (max-width: 767px){
+    .navbar-nav>li>a{
+font-size: 16px;
+  }
+   .navbar-collapse {
+        position: fixed;
+        top: 50px;
+        right: 0px;
+        background-color:rgb(220,220,220);
+        border-radius: 15px;
+        width: 150px;
+        padding: 15px;
+    }
+
+ .contain{
+  margin-top: 10px;
+  position: relative;
+}
+.contain{
+  margin-top: 0px;
+  position: relative;
+}
+.service{
+width: 50%;
+margin-left: 6%;
+}
+.profilecontan{
+  margin-top: 50px;
+  width: 100%;
+ min-height: 500px;
+  position: relative;
+}
+.profile{
+  width: 53%;
+  margin-left: 6%;
+}
+.folder{
+  margin: 20px 5px 10px 25px;
+  padding: 0px;
+  width: 50%;
+  min-height: 50px;
+}
+.folder p{
+  margin-left: 15px;
+  color: #030c30;
+  opacity: 0.5;
+  font-family: AlvarEssentialSemiBold;
+  font-size: 20px;
+}
+.ok{
+  margin-top: 0px;
+  visibility: hidden;
+}
+.contanbotton{
+  margin-top: 10px;
+  margin-left: 0px;
+  min-height: 150px;
+}
+.contanbotton .row{
+  width: 100%;
+  margin: 0px 0px;
+  padding: 20px;
+padding: 0px;
+display: block;
+}
+.contanbotton .row .botton{
+ margin:5px 0px 15px 6%;
+  padding: 15px 0px 10px 0px;
+  width: 85%;
+  height: 62px;
+  background-color: #e8ebef;
+  border:1px solid white;
+  border-radius: 15px;
+}
+.contanbotton .row .botton a{
+  margin: 5px 0px;
+  text-decoration: none;
+    color: #030c30;
+    font-family: EssentialLight;
+    font-size: 16px;
+    text-align: center;
+
+}
+.contanbotton .row .botton img{
+  width: 39px;
+   margin:0px 0px 0px 12px;
+   vertical-align: center;
+}
+  footer{
+  margin-top: 0px;
+  width: 100%;
+  min-height: 200px;
+  background-color: #030c30;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+footer .row{
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  width: 100%;
+  min-height: 150px;
+  display: inline-flex;
+}
+
+.card1{
+  margin: 0px;
+  margin-left: 150px;
+  padding: 0px;
+  width: 20%;
+}
+  .card1 img{
+    width:100px;
+  }
+.card1 h3{
+  margin-left: 12px;
+color: white;
+  font-size: 20px;
+font-family: EssentialLight;
+opacity: 0.5;
+}
+.card2{
+  margin-left: 90px;
+  width: 20%;
+}
+.card2 img{
+  width: 100px;
+}
+.link{
+ margin-left: 10px;
+ display:block;
+}
+.card2 a{
+  color: white;
+  display: block;
+  margin:10px;
+    font-family: EssentialLight;
+  font-size: 20px; 
+  text-decoration: none;
+  opacity: 0.5;
+}
+.card3{
+   margin-left: 20px;
+  width: 20%;
+  display: block;
+}
+.card3 .follow{
+  width: 100px;
+}
+.aimg{
+  margin-top: 15px;
+  width:25px;
+}
+.aimgv{
+  margin: 15px 2px 0px 2px;
+  width:25px;
+}
+.img{
+  margin-left: 10px;
+  display: inline;
+}
+}
+
+@media screen and (max-width: 575px){
+    .navbar-nav>li>a{
+font-size: 15px;
+  }
+.navimg{
+  width:50px;
+}
+.contain{
+  margin-top: 0px;
+  position: relative;
+}
+.service{
+width: 50%;
+margin-left: 6%;
+}
+.profilecontan{
+  margin-top: 50px;
+  width: 100%;
+ min-height: 500px;
+  position: relative;
+}
+.profile{
+  width: 53%;
+  margin-left: 6%;
+}
+.folder{
+  margin: 20px 5px 10px 25px;
+  padding: 0px;
+  width: 50%;
+  min-height: 50px;
+}
+.folder p{
+  margin-left: 15px;
+  color: #030c30;
+  opacity: 0.5;
+  font-family: AlvarEssentialSemiBold;
+  font-size: 20px;
+}
+.ok{
+  margin-top: 0px;
+  visibility: hidden;
+}
+.contanbotton{
+  margin-top: 10px;
+  margin-left: 0px;
+  min-height: 150px;
+}
+.contanbotton .row{
+  width: 100%;
+  margin: 0px 0px;
+  padding: 20px;
+padding: 0px;
+display: block;
+}
+.contanbotton .row .botton{
+ margin:5px 0px 15px 6%;
+  padding: 15px 0px 10px 0px;
+  width: 85%;
+  height: 62px;
+  background-color: #e8ebef;
+  border:1px solid white;
+  border-radius: 15px;
+}
+.contanbotton .row .botton a{
+  margin: 5px 0px;
+  text-decoration: none;
+    color: #030c30;
+    font-family: EssentialLight;
+    font-size: 15px;
+    text-align: center;
+
+}
+.contanbotton .row .botton img{
+  width: 39px;
+   margin:0px 0px 0px 12px;
+   vertical-align: center;
+}
+.contact {
+    margin-top: 35px;
+
+}
+  footer{
+  margin-top: 0px;
+  width: 100%;
+  min-height: 200px;
+  background-color: #030c30;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+footer .row{
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  width: 100%;
+  min-height: 150px;
+  display: inline-flex;
+}
+
+.card1{
+  margin: 0px;
+  margin-left: 90px;
+  padding: 0px;
+  width: 20%;
+}
+  .card1 img{
+    width:80px;
+  }
+.card1 h3{
+  margin-left: 12px;
+color: white;
+  font-size: 15px;
+font-family: EssentialLight;
+opacity: 0.5;
+}
+.card2{
+  margin-left: 45px;
+  width: 20%;
+}
+.card2 img{
+  width: 80px;
+}
+.link{
+ margin-left: 10px;
+ display:block;
+}
+.card2 a{
+  color: white;
+  display: block;
+  margin:10px;
+    font-family: EssentialLight;
+  font-size: 15px; 
+  text-decoration: none;
+  opacity: 0.5;
+}
+.card3{
+   margin-left: 20px;
+  width: 20%;
+  display: block;
+}
+.card3 .follow{
+  width: 80px;
+}
+.aimg{
+  margin-top: 15px;
+  width:15px;
+}
+.aimgv{
+  margin: 15px 2px 0px 2px;
+  width:15px;
+}
+.img{
+  margin-left: 10px;
+  display: inline;
+}
+}
+
+
+@media screen and (max-width: 440px){
+    .navbar-nav>li>a{
+font-size: 14px;
+  }
+.navimg{
+  width:50px;
+}
+.contain{
+  margin-top: 0px;
+  position: relative;
+}
+.service{
+width: 50%;
+margin-left: 6%;
+}
+.profilecontan{
+  margin-top: 50px;
+  width: 100%;
+ min-height: 330px;
+  position: relative;
+}
+.profile{
+  width: 53%;
+  margin-left: 6%;
+}
+.folder{
+  margin: 20px 5px 10px 25px;
+  padding: 0px;
+  width: 50%;
+  min-height: 50px;
+}
+.folder p{
+  margin-left: 15px;
+  color: #030c30;
+  opacity: 0.5;
+  font-family: AlvarEssentialSemiBold;
+  font-size: 15px;
+}
+.ok{
+  margin-top: 0px;
+  visibility: hidden;
+}
+.contanbotton{
+  margin-top: 10px;
+  margin-left: 0px;
+  min-height: 150px;
+}
+.contanbotton .row{
+  width: 100%;
+  margin: 0px 0px;
+  padding: 20px;
+padding: 0px;
+display: block;
+}
+.contanbotton .row .botton{
+ margin:5px 0px 15px 6%;
+  padding: 15px 0px 10px 0px;
+  width: 85%;
+  height: 65px;
+  background-color: #e8ebef;
+  border:1px solid white;
+  border-radius: 15px;
+}
+.contanbotton .row .botton a{
+  margin: 5px 0px;
+  text-decoration: none;
+    color: #030c30;
+    font-family: EssentialLight;
+    font-size: 13px;
+    text-align: center;
+
+}
+.contanbotton .row .botton img{
+  width: 35px;
+   margin:0px 0px 0px 12px;
+   vertical-align: center;
+}
+.contact {
+    margin-top: 35px;
+ 
+}
+
+  footer{
+  margin-top: 0px;
+  width: 100%;
+  min-height: 200px;
+  background-color: #030c30;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+footer .row{
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  width: 100%;
+  min-height: 150px;
+  display: inline-flex;
+}
+
+.card1{
+  margin: 0px;
+  margin-left: 55px;
+  padding: 0px;
+  width: 20%;
+}
+  .card1 img{
+    width:80px;
+  }
+.card1 h3{
+  margin-left: 12px;
+color: white;
+  font-size: 15px;
+font-family: EssentialLight;
+opacity: 0.5;
+}
+.card2{
+  margin-left: 30px;
+  width: 20%;
+}
+.card2 img{
+  width: 80px;
+}
+.link{
+ margin-left: 10px;
+ display:block;
+}
+.card2 a{
+  color: white;
+  display: block;
+  margin:10px;
+    font-family: EssentialLight;
+  font-size: 15px; 
+  text-decoration: none;
+  opacity: 0.5;
+}
+.card3{
+   margin-left: 20px;
+  width: 20%;
+  display: block;
+}
+.card3 .follow{
+  width: 80px;
+}
+.aimg{
+  margin-top: 15px;
+  width:15px;
+}
+.aimgv{
+  margin: 15px 2px 0px 2px;
+  width:15px;
+}
+.img{
+  margin-left: 10px;
+  display: inline;
+}
+  
+}
+
+@media screen and (max-width: 343px){
+  .navbar-nav>li>a{
+font-size: 14px;
+  }
+.navimg{
+  width:45px;
+}
+.contain{
+  margin-top: 0px;
+  position: relative;
+}
+.contact {
+    margin-top: 35px;
+    width: 50%;
+}
+.service{
+width: 50%;
+margin-left: 6%;
+}
+.profilecontan{
+  margin-top: 50px;
+  width: 100%;
+ min-height: 290px;
+  position: relative;
+}
+.profile{
+  width: 53%;
+  margin-left: 6%;
+}
+.folder{
+  margin: 20px 0px 10px 20px;
+  padding: 0px;
+  width: 55%;
+  min-height: 50px;
+}
+.folder p{
+  margin-left: 15px;
+  color: #030c30;
+  opacity: 0.5;
+  font-family: AlvarEssentialSemiBold;
+  font-size: 13px;
+}
+.ok{
+  margin-top: 0px;
+  visibility: hidden;
+}
+.contanbotton{
+  margin-top: 10px;
+  margin-left: 0px;
+  min-height: 150px;
+}
+.contanbotton .row{
+  width: 100%;
+  margin: 0px 0px;
+  padding: 20px;
+padding: 0px;
+display: block;
+}
+.contanbotton .row .botton{
+ margin:5px 0px 15px 6%;
+  padding: 15px 0px 10px 0px;
+  width: 85%;
+  height: 70px;
+  background-color: #e8ebef;
+  border:1px solid white;
+  border-radius: 15px;
+}
+.contanbotton .row .botton a{
+  margin: 5px 0px;
+  text-decoration: none;
+    color: #030c30;
+    font-family: EssentialLight;
+    font-size: 13px;
+    text-align: center;
+
+}
+.contanbotton .row .botton img{
+  width: 31px;
+   margin:0px 0px 0px 12px;
+   vertical-align: center;
+}
+
+  footer{
+  margin-top: 0px;
+  width: 100%;
+  min-height: 200px;
+  background-color: #030c30;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+footer .row{
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  width: 100%;
+  min-height: 150px;
+  display: inline-flex;
+}
+
+.card1{
+  margin: 0px;
+  margin-left: 25px;
+  padding: 0px;
+  width: 20%;
+}
+  .card1 img{
+    width:80px;
+  }
+.card1 h3{
+  margin-left: 12px;
+color: white;
+  font-size: 15px;
+font-family: EssentialLight;
+opacity: 0.5;
+}
+.card2{
+  margin-left: 30px;
+  width: 20%;
+}
+.card2 img{
+  width: 80px;
+}
+.link{
+ margin-left: 10px;
+ display:block;
+}
+.card2 a{
+  color: white;
+  display: block;
+  margin:10px;
+    font-family: EssentialLight;
+  font-size: 15px; 
+  text-decoration: none;
+  opacity: 0.5;
+}
+.card3{
+   margin-left: 20px;
+  width: 20%;
+  display: block;
+}
+.card3 .follow{
+  width: 80px;
+}
+.aimg{
+  margin-top: 15px;
+  width:15px;
+}
+.aimgv{
+  margin: 15px 2px 0px 2px;
+  width:15px;
+}
+.img{
+  margin-left: 10px;
+  display: inline;
+}
+  
+}
+
+
+
+
+
+
+
+
